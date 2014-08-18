@@ -1,0 +1,24 @@
+body {
+    font-family: 'Droid Sans', serif;
+    font-size: 20px;
+
+    background-image:
+    linear-gradient(
+            to right,
+            #cbc2cf 1%,
+            #ffe4d8 99%
+    )
+
+}
+
+.homepage img{
+    width:100%;
+    height:auto;
+    max-height:300px;
+}
+
+
+.projects img{
+    width:100%;
+    height:41%;
+}

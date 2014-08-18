@@ -14,9 +14,35 @@ public class HomeController {
         return "index";
     }
 
-    @RequestMapping(value="/slides")
-    public String slides() {
-        return "slides";
+
+   // @RequestMapping("/index")
+    //public String index() {
+     //   return "index";
+    //}
+
+    @RequestMapping(value="/about")
+    public String about() {
+        return "about";
+    }
+
+    @RequestMapping(value="/projects")
+    public String projects() {
+        return "projects";
+    }
+
+    @RequestMapping(value="/design")
+    public String design() {
+        return "design";
+    }
+
+    @RequestMapping(value="/motiv")
+    public String motiv() {
+        return "motiv";
+    }
+
+    @RequestMapping(value="/contact")
+    public String contact() {
+        return "contact";
     }
 
 }

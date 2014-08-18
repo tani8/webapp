@@ -1,17 +1,18 @@
-<!DOCTYPE html>
-<html data-ng-app>
+<%--
+  Created by IntelliJ IDEA.
+  User: taniya23
+  Date: 8/18/14
+  Time: 11:23 AM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html ng-app>
 <head>
-    <link rel="stylesheet" type="text/css" href="resources/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
-    <title>Search Web Application</title>
-
+    <title></title>
 </head>
 <body>
 
-<div class = "homepage" style="background-color: #67cfc4">
-    <img src="resources/bootstrap/img/backimg.JPG" />
+
     <div class="bs-example">
         <nav role="navigation" class="navbar navbar-default">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -40,25 +41,9 @@
         </nav>
     </div>
 
-</div>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.18/angular.min.js"></script>
 
-
 </body>
 </html>
-
-<!--
-<body data-ng-init="customers=['John Smith', 'John Doe', 'Jane Doe']">
-<button type="button" class ="navbar-toggle"><span class="glyphicons-halflings.png"></span> Search Chemical Inventory</button>
-
-<input type = "text" data-ng-model="name" />
-
-<ul>
-<li data-ng-repeat="cust in customers | filter: name">{{cust}}</li>
-</ul>
-
-<a style="text-decoration:none;" href="http://my.ucdavis.edu/index.html">
-<span class="header_font_right"> Login </span></a>
-</div>
--->
